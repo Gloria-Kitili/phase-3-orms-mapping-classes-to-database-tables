@@ -1,4 +1,5 @@
-class Song
+ 
+ class Song
 
   attr_accessor :name, :album, :id
 
@@ -38,5 +39,8 @@ def self.create(name:, album:)
   song.save
 end
 end
+
+
+
 
 
